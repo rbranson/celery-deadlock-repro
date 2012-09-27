@@ -1,1 +1,6 @@
 Reproduces a deadlock bug in Celery when the consumer/producer pool is starved. 
+
+    $ ./repro.py
+    Expected to get that exception: [Errno 61] Connection refused
+    Now I'm going to lock up...
+
