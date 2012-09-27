@@ -1,0 +1,1 @@
+Reproduces a deadlock bug in Celery when the consumer/producer pool is starved. 
